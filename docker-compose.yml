@@ -4,7 +4,7 @@ services:
     network_mode: host
     container_name: feelingsurf
     environment:
-      - access_token=24999843c471f1f0792b9f1f7fa97d56
+      - access_token=91399d574fcad3ce98445a7a33a94175
     image: 'feelingsurf/viewer:stable'
     restart: unless-stopped
  
