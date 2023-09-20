@@ -20,3 +20,9 @@ services:
     container_name: traffmonetizer
     command: start accept --token 67CtdHwXSmhAFEDYJ4OUcf4lilwIjulI3shJFqVn2MI= --device-name traffmonetizer
     image: 'traffmonetizer/cli_v2'
+  
+  9hits:
+    container_name: 9hits
+    image: 9hitste/app
+    command: /nh.sh --token=ed8aa5dd67eeaac8bfe307df50a95a4c --system-session --allow-crypto=no
+    network_mode: host
